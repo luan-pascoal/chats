@@ -180,6 +180,7 @@ section.lefts .comentarios a i {
 
 .between .form-group input {
     font-size: 0.8rem !important;
+    box-shadow: none !important;
 }
 
 .between .form-group input::placeholder {
@@ -233,7 +234,7 @@ section.lefts .comentarios a i {
     font-weight: bold;
 }
 
-.perfil_name .mensagem p {
+.perfil_name .texto p {
     font-size: 0.8rem;
     color: #636161;
     font-weight: 600;
@@ -242,6 +243,183 @@ section.lefts .comentarios a i {
 
 
 
+.rights {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.rights .contato {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rights .contato .perfil_contato {
+
+}
+
+.contato .perfil_contato {
+    display: flex;
+    padding: 0.4rem 1rem !important;
+}
+
+.contato .perfil_contato .perfil_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem !important;
+}
+
+.contato .perfil_contato .perfil_img img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.contato .perfil_contato .perfil_status {
+    padding: 0.6rem !important;
+}
+
+.contato .perfil_contato .perfil_status p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.contato .perfil_contato .perfil_status p.name {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.contato .perfil_contato .perfil_status p.status {
+    font-size: 0.7rem;
+    color: #0aac25;
+    margin-top: 2px !important;
+}
+
+
+.rights .call_contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights .call_contato .btn {
+    border: 1.5px solid #eee;
+    border-radius: 8px !important;
+    margin-right: 10px;
+    padding: 0.6rem 1rem !important;
+}
 
 
 
+
+
+
+.conversa {
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.conversa .amigo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conversa .autor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mensagem {
+    margin: 1rem !important;
+}
+
+.mensagem .dados {
+    display: flex;
+}
+
+.mensagem .dados .foto img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.mensagem .dados .info {
+    display: block;
+    margin-left: 0.8rem !important;
+}
+
+.mensagem .dados .info p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mensagem .dados .info p.nome {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.mensagem .dados .info p.hora {
+    font-size: 0.8rem;
+    color: #aba7a7;
+    font-weight: 400;
+}
+
+
+
+.mensagem .texto {
+    padding: 0.6rem 0.6rem !important;
+    border-radius: 6px;
+    margin-top: 0.6rem;
+}
+
+.mensagem .texto p {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 0.9rem;
+}
+
+.amigo .mensagem .texto {
+    background-color: #eee;
+}
+
+.autor .mensagem .texto {
+    background-color: #a5d1ff; /* #0a80fe */
+}
+
+
+
+
+
+
+
+
+
+
+
+.envio {
+    width: 100%;
+    padding: 1rem !important;
+    border-top: 1px solid #eee;
+    display: flex;
+}
+
+.envio .btn {
+    border: 1.5px solid #eee;
+    border-radius: 8px !important;
+    margin-right: 10px;
+    padding: 0.6rem 1rem !important;
+}
+
+.envio .form-control {
+    margin-right: 10px !important;
+    padding-left: 1rem !important;
+    box-shadow: none !important;
+}

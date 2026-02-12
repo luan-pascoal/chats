@@ -1,3 +1,9 @@
+<?php
+
+require '../config/db.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -67,7 +73,7 @@
                             <div class="name">
                                 <p>Tomás Wong</p>
                             </div>
-                            <div class="mensagem">
+                            <div class="texto">
                                 <p>Boa noite, tudo bem?</p>
                             </div>
                         </div>
@@ -81,7 +87,7 @@
                             <div class="name">
                                 <p>Heitor Lima</p>
                             </div>
-                            <div class="mensagem">
+                            <div class="texto">
                                 <p>Fez a tarefa de hoje?</p>
                             </div>
                         </div>
@@ -95,8 +101,71 @@
 
         <main class="rights">
             
-            .
+            <div class="contato">
+                <div class="perfil_contato">
+                    <div class="perfil_img">
+                        <img src="" alt="???">
+                    </div>
+                    <div class="perfil_status">
+                        <p class="name">Desconhecido</p>
+                        <p class="status">online</p>
+                    </div>
+                </div>
 
+                <div class="call_contato">
+                    <button class="btn rounded-0"><i class="fa-solid fa-phone"></i></button>
+                    <button class="btn rounded-0"><i class="fa-solid fa-video"></i></button>
+
+                </div>
+            </div>
+
+            <div class="conversa">
+
+                <div class="amigo">
+                    <div class="mensagem">
+                        <div class="dados">
+                            <div class="foto">
+                                <img src="" alt="??">
+                            </div>
+                            <div class="info">
+                                <p class="nome">Desconhecido</p>
+                                <p class="hora">11:45</p>
+                            </div>
+                        </div>
+                        <div class="texto">
+                            <p class="texto_amigo">Boa noite tudo bem?</p>
+                        </div>
+                    </div>
+                    
+                    <div></div>
+                </div>
+
+                <div class="autor">
+                    <div></div>
+                    <div class="mensagem">
+                        <div class="dados">
+                            <div class="foto">
+                                <img src="" alt="??">
+                            </div>
+                            <div class="info">
+                                 <p class="nome">Desconhecido</p>
+                                <p class="hora">11:45</p>
+                            </div>
+                        </div>
+                        <div class="texto">
+                            <p class="texto_autor">Boa noite</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="envio">
+                <button class="btn"><i class="fa-solid fa-user"></i></button>
+                <input type="text" name="" id="" class="form-control form-control-sm" placeholder="Mensagem">
+                <button class="btn"><i class="fa-regular fa-paper-plane"></i></button>
+                <button class="btn"><i class="fa-solid fa-trash"></i></button>
+            </div>
 
         </main>
     </div>
