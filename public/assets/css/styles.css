@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+body .containers {
+    width: 100%;
+    height: 100vh;
+    display: flex !important;
+}
+
+
+section.lefts {
+    width: 6%;
+    height: 100vh;
+    background-color: #fff;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: block;
+    position: relative;
+    border-right: 2px solid #bebebe !important;
+}
+
+section.lefts .comentarios {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem 1.1rem;
+}
+
+section.lefts .comentarios a {
+    text-decoration: none;
+    color: #000;
+    padding: 1.1rem 1.1rem;
+    border-radius: 4px;
+}
+
+section.lefts .comentarios a:hover {
+    background-color: #333;
+}
+
+section.lefts .comentarios a i {
+    font-size: 1.4rem;
+}
+
+/* .containers .between {
+    width: 25%;
+    background-color: rgb(25, 30, 30);
+} */
+
+
+
+.list-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-buttons ul {
+    list-style: none;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.list-buttons ul li {
+    margin: 0.8rem 0 !important;
+}
+
+.list-buttons ul li a {
+    padding: 1rem !important;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #000;
+    border-radius: 6px;
+}
+
+.list-buttons ul li a:hover {
+    background-color: #333;
+}
+
+.list-buttons ul li a i {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+.list-buttons-out {
+    position: absolute;
+    bottom: 0;
+    /* left: 10px;    */
+}
+
+.list-buttons-out ul {
+    list-style: none;
+}
+
+.list-buttons-out ul li {
+    margin: 1.5rem 0 !important;
+}
+
+.list-buttons-out ul li a {
+    text-decoration: none;
+    padding: 1rem !important;
+    color: #000;
+}
+
+.list-buttons-out ul li a i {
+    font-size: 1.3rem;
+}
+
+.list-buttons-out ul li .img {
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+
+
+
+.containers .between {
+    width: 20%;
+    border-right: 2px solid #bebebe !important;
+    padding: 1rem 0.8rem !important;
+}
+
+.between .logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h2 img {
+    /* width: 100px; */
+    height: 60px;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users .btn {
+    border: 1.5px solid #eee;
+    padding: 0.8rem 0.9rem !important;
+    margin: 0 10px !important;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.users .btn i {
+    font-size: 1.1rem;
+}
+
+.between .form-group {
+    margin-top: 10px !important;
+}
+
+.between .form-group input {
+    font-size: 0.8rem !important;
+}
+
+.between .form-group input::placeholder {
+    font-size: 0.8rem !important;
+}
+
+
+
+
+
+.between .chats .todos {
+    display: block;
+    margin-top: 0.8rem !important
+}
+
+.chats .todos .usuario {
+    display: flex;
+    border-bottom: 2px solid #eee;
+}
+
+.chats .todos .usuario:hover {
+    background-color: #eee;
+}
+
+.chats .todos .usuario .perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem !important;
+}
+
+.chats .todos .usuario .perfil img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+
+.perfil_name p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.perfil_name .name {
+    margin-top: 0.6rem;
+}
+
+.perfil_name .name p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.perfil_name .mensagem p {
+    font-size: 0.8rem;
+    color: #636161;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
