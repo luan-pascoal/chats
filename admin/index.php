@@ -64,34 +64,11 @@ require '../config/db.php';
 
             <div class="chats">
                 <div class="todos">
-                    
-                    <div class="usuario">
-                        <div class="perfil">
-                            <img src="" alt="??" srcset="">
-                        </div>
-                        <div class="perfil_name">
-                            <div class="name">
-                                <p>Tomás Wong</p>
-                            </div>
-                            <div class="texto">
-                                <p>Boa noite, tudo bem?</p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php    
 
-                    <div class="usuario">
-                        <div class="perfil">
-                            <img src="" alt="??" srcset="">
-                        </div>
-                        <div class="perfil_name">
-                            <div class="name">
-                                <p>Heitor Lima</p>
-                            </div>
-                            <div class="texto">
-                                <p>Fez a tarefa de hoje?</p>
-                            </div>
-                        </div>
-                    </div>
+                        include '../include/listaAmigos.php';
+
+                    ?>
 
                 </div>
             </div>

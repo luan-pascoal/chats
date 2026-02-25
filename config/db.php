@@ -7,7 +7,7 @@ $senha = '';
 
 try {
     
-    $PDO = new PDO("mysql:host=" . $host . ";ndbname=" . $database . ";", $user, $senha);
+    $pdo = new PDO("mysql:host=" . $host . ";dbname=" . $database . ";", $user, $senha);
 
 } catch (PDOException $e) {
 
